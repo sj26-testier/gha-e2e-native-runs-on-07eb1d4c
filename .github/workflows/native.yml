@@ -1,0 +1,5 @@
+on: push
+jobs:
+  hello:
+    steps:
+      - run: echo native-runner-probe
